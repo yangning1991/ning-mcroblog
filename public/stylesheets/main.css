@@ -1,0 +1,57 @@
+
+.control-group label{
+	width:180px;
+	padding-right:20px; 
+}
+
+.control-group .controls{
+	float: left;
+	width:282px;
+	margin-left:0px; 
+}
+.control-group input.error{
+	border-color: #FF6666;
+}
+.control-group .info{
+	float: left;
+	width: 236px;
+	height: 35px;
+}
+.info table{
+	margin-left: 26px;
+	border: 0 none;
+	border-collapse: collapse;
+	margin-top:-5px;
+}
+.info table td{
+	height: 35px;line-height: 35px;
+	color:#84A8C8;
+}
+.info  .error{
+	 background: url("/images/pwd_sprite.png") no-repeat scroll 0 -342px rgba(0, 0, 0, 0);
+   	 color: #FF6666;
+   	 padding-left: 14px;
+}
+.info .ok{
+	background: url("/images/ok.png") no-repeat scroll 0 11px rgba(0, 0, 0, 0);
+    	color: #48A309;
+    	padding-left: 14px;
+}
+.info .low, .info .middle, .info .high{
+	background: url("/images/pwd_sprite.png") no-repeat scroll rgba(0, 0, 0, 0);
+	padding:-left:70px;
+	height: 15px;
+	width:163px;
+}
+.info .low{
+	   background-position: 0 -100px;
+  	  color: #FF9C3A;
+}
+.info .middle{
+	background-position: 0 -142px;
+    	color: #61D01C;
+}
+.info .high{
+	background-position: 0 -190px;
+   	 color: #61D01C;
+}
