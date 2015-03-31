@@ -1,0 +1,61 @@
+<form id="reg_form" class="form-horizontal" method="post">
+	<fieldset>
+		<legend>user register</legend>
+		<div class="control-group group1">
+			<label class="control-label" for ="username">user name</label>
+			<div class="controls">
+				<input type="text" class="input-xlarge" id="username" name="username" autofocus="autofocus" maxlength="24" autocomplete="off">
+				<p class="help-block">你的账户名称,用于登录和显示。</p>
+			</div>
+			<div class="info">
+				<table>
+					<tbody>
+						<tr><td>请输入账户名</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="control-group group2">
+			<label class="control-label" for="password">口令</label>
+			<div class="controls">
+				<input type="password" class="input-xlarge" id="password" name="password" maxlength="16" autocomplete="off">
+			</div>
+			<div class="info">
+				<table>
+					<tbody>
+						<tr><td>长度为6-16de非空字符组合!</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="control-group group3">
+			<label class="control-label" for="password-repeat">重复输入口令</label>
+			<div class="controls">
+				<input type="password" class="input-xlarge" id="password-repeat" name="password-repeat" maxlength="16" autocomplete="off">
+			</div>
+			<div class="info">
+				<table>
+					<tbody>
+						<tr><td>请再次输入密码!</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="control-group group4">
+			<label class="control-label" for="email">email</label>
+			<div class="controls">
+				<input type="text" class="input-xlarge" id="email" name="email" autocomplete="off">
+			</div>
+			<div class="info">
+				<table>
+					<tbody>
+						<tr><td>请输入可用的邮箱!</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="form-actions">
+			<button type="submit" class="btn btn-primary">注册</button>
+		</div>
+	</fieldset>
+</form>
